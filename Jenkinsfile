@@ -33,6 +33,7 @@ pipeline {
         stage('Integration Tests on Staging') {
             steps {
                 echo "Run integration tests in staging using Selenium"
+                // check again 
             }
         }
         stage('Deploy to Production') {
@@ -40,8 +41,6 @@ pipeline {
                 echo "Deploy the application to the production environment using Ansible"
                 echo "${PRODUCTION_ENV}: Deployment complete"
                 echo "This is a test change to trigger polling"
-                // check again 
-// check again // check again 
 
             }
         }
