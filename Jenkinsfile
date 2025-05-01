@@ -40,6 +40,7 @@ pipeline {
                 echo "Deploy the application to the production environment using Ansible"
                 echo "${PRODUCTION_ENV}: Deployment complete"
                 echo "This is a test change to trigger polling"
+                // check again 
             }
         }
     }
